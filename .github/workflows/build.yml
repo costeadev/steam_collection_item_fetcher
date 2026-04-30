@@ -18,7 +18,7 @@ jobs:
           python-version: '3.11'
  
       - name: Install dependencies
-        run: pip install requests pyinstaller
+        run: pip install requests pyinstaller beautifulsoup4
  
       - name: Build EXE
         run: pyinstaller --onefile --windowed main.py
